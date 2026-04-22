@@ -12,7 +12,7 @@ _apply_GE_patch() {
 }
 
 _GE() {
-    msg2 "GE patches..."
+    msg2 "GE patches... If available"
     if [[ "$_plain_version" = *_11.0 ]]; then
       _patchname=""
     elif [[ "$_plain_version" = *_10.0 ]]; then
